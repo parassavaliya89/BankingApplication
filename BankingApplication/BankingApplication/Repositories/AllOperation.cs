@@ -10,8 +10,7 @@ namespace BankingApplication.Repositories
     public class AllOperation : IMethod
     {
         public static List<Customer> customer = new List<Customer>();
-        //public static List<Account> Accounts = new List<Account>();
-        //public static List<Transaction> Transactions = new List<Transaction>();
+        
 
         int WithdrawalLimitPerHour = 200000;
         int NumberOfTransactionPerHour = 4;
@@ -98,7 +97,7 @@ namespace BankingApplication.Repositories
             }
             else
             {
-                Console.WriteLine("You can only withdraw in multiple of hundred");
+                Console.WriteLine("You can  withdraw in multiple of hundred");
             }
         }
 
